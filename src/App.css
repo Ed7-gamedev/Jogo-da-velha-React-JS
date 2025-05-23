@@ -1,0 +1,119 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background: linear-gradient(135deg, rgb(8, 6, 11), rgb(3, 3, 50)
+  );
+  border-radius: 10px;
+}
+
+
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+}
+
+@media (max-width: 768px) {
+  .btn {
+    font-size: 1rem; /* Reduz o tamanho do texto em telas menores */
+    max-width: 80px;
+    max-height: 80px;
+  }
+
+  .linha {
+    padding: 2px;
+    margin: 2px auto;
+  }
+}
+
+@media (max-width: 1024px) {
+  .btn {
+    font-size: 2rem; /* Reduz o tamanho do texto em telas menores */
+    max-width: 200px;
+    max-height: 200px;
+  }
+
+  .linha {
+    padding: 5px;
+    margin: 5px auto;
+  }
+}
+
+
+@media (max-width: 480px) {
+  .btn {
+    font-size: 0.8rem; /* Ajusta ainda mais o texto para telas muito pequenas */
+    max-width: 60px;
+    max-height: 60px;
+  }
+}
+
+
+
+
+
+
+.linha {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 5px;
+  margin: 5px auto;
+  width: 100%;
+  max-width: 400px; /* Limita a largura máxima do tabuleiro */
+}
+
+
+.btn {
+  color: aqua;
+  width: 500px;
+  height: 500px;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem; /* Tamanho do texto ajustado */
+  flex: 1; /* Faz os botões ocuparem o mesmo espaço */
+  max-width: 100px; /* Limita a largura máxima dos botões */
+  max-height: 100px; /* Limita a altura máxima dos botões */
+}
+
+.btn2 {
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  margin: 5px;
+  font-size: 1.5rem; /* Tamanho do texto ajustado */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  max-width: 100px; /* Limita a largura máxima dos botões */
+  max-height: 70px; /* Limita a altura máxima dos botões */
+}
